@@ -55,7 +55,7 @@ const Main = () =>{
                         <div className='card-right'>
                             <h2>Title</h2>
                             <p>{book.volumeInfo.title || "I have this book, and this book is very good to read and very informative"}</p>
-                            <a href={book.volumeInfo.previewLink} target='_blank'><button>Now Read!</button></a>
+                            <a href={book.volumeInfo.previewLink} target='_blank'><button>Read Now!</button></a>
                         </div>
                     </div>
                         ))

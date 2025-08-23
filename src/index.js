@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom'
 import App from './components/App';
 import ContextProvider from './context/ContextProvider';
 import { BrowserRouter } from 'react-router-dom';
+import './style.css';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

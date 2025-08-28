@@ -23,7 +23,7 @@ jobs:
     
     - name: Clone test repository
       run: |
-        git clone https://github.com/unnath123/practseone.git test-repo
+        git clone https://github.com/unnath123/pract.git test-repo
         cd test-repo
         npm ci
         npx playwright install --with-deps
